@@ -1,0 +1,44 @@
+body {
+	margin-top: 5%;
+	font-family: 'Bookman Old Style', Georiga, serif;
+	background-color:rgb(197, 247, 252);
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family:'Bookman Old Style', Georiga, serif;
+}
+
+#input_email {
+	padding: 5px;
+}
+
+#input_phone_number {
+	padding: 5px;
+}
+
+#input_dob {
+	padding: 5px;
+}
+
+#submit_button {
+	padding: 5px;
+}
+
+#form {
+	border: 0.25em dashed black;
+	display: block;
+	padding: 10px;
+	margin: auto;
+	width: 75%;
+	text-align: center;
+	background: rgb(252, 210, 197)
+}
+
+@media only screen and (min-width: 480px) {
+	#form{
+		width: 80%;
+		display: block;
+	}
+}
